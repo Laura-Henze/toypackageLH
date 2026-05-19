@@ -11,6 +11,8 @@
 #'
 min_max_scale <- function(x)
 {
+  checkmate::assert_numeric
+
   y <- (x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE) - min(x, na.rm = TRUE))
 
   return(y)
