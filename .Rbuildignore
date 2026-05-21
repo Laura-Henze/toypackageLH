@@ -7,3 +7,4 @@
 ^toypackageLH.*\.tar\.gz$
 ^toypackageLH.*\.tgz$
 ^LICENSE\.md$
+^data-raw$
