@@ -8,3 +8,6 @@ project*.tgz
 toypackageLH.Rcheck/
 toypackageLH*.tar.gz
 toypackageLH*.tgz
+inst/doc
+/doc/
+/Meta/
